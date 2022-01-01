@@ -8,8 +8,8 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "c:/Users/Chris/Documents/PlatformIO/Projects/Demo-Widget/include",
-                "c:/Users/Chris/Documents/PlatformIO/Projects/Demo-Widget/src",
+                "c:/Users/Chris/projects/Demo-Widget/include",
+                "c:/Users/Chris/projects/Demo-Widget/src",
                 "C:/Users/Chris/.platformio/packages/framework-stm32cubef4/Drivers/CMSIS/Include",
                 "C:/Users/Chris/.platformio/packages/framework-stm32cubef4/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
                 "C:/Users/Chris/.platformio/packages/framework-stm32cubef4/Drivers/STM32F4xx_HAL_Driver/Inc",
@@ -84,13 +84,14 @@
                 "C:/Users/Chris/.platformio/packages/framework-stm32cubef4/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src",
                 "C:/Users/Chris/.platformio/packages/framework-stm32cubef4/Middlewares/ST/STM32_USB_Host_Library/Class/MTP/Inc",
                 "C:/Users/Chris/.platformio/packages/framework-stm32cubef4/Middlewares/ST/STM32_USB_Host_Library/Class/MTP/Src",
+                "C:/Users/Chris/.platformio/packages/tool-unity",
                 ""
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "c:/Users/Chris/Documents/PlatformIO/Projects/Demo-Widget/include",
-                    "c:/Users/Chris/Documents/PlatformIO/Projects/Demo-Widget/src",
+                    "c:/Users/Chris/projects/Demo-Widget/include",
+                    "c:/Users/Chris/projects/Demo-Widget/src",
                     "C:/Users/Chris/.platformio/packages/framework-stm32cubef4/Drivers/CMSIS/Include",
                     "C:/Users/Chris/.platformio/packages/framework-stm32cubef4/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
                     "C:/Users/Chris/.platformio/packages/framework-stm32cubef4/Drivers/STM32F4xx_HAL_Driver/Inc",
@@ -165,6 +166,7 @@
                     "C:/Users/Chris/.platformio/packages/framework-stm32cubef4/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src",
                     "C:/Users/Chris/.platformio/packages/framework-stm32cubef4/Middlewares/ST/STM32_USB_Host_Library/Class/MTP/Inc",
                     "C:/Users/Chris/.platformio/packages/framework-stm32cubef4/Middlewares/ST/STM32_USB_Host_Library/Class/MTP/Src",
+                    "C:/Users/Chris/.platformio/packages/tool-unity",
                     ""
                 ]
             },
