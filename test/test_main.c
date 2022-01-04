@@ -1,4 +1,4 @@
-#include "main.h"
+#include "test_main.h"
 #include <unity.h>
 
 void setUp(void) {
