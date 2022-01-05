@@ -1,7 +1,7 @@
 #include "test_led_driver.h"
 #include <unity.h>
 
-void LED_Init(void){
+void test_led_init(void){
     LED_GPIO_CLK_ENABLE();
     GPIO_InitTypeDef GPIO_InitStruct;
     GPIO_InitStruct.Pin = LED_PIN;
@@ -9,9 +9,10 @@ void LED_Init(void){
     GPIO_InitStruct.Pull = GPIO_PULLUP;
     GPIO_InitStruct.Speed = GPIO_SPEED_HIGH;
     HAL_GPIO_Init(LED_GPIO_PORT, &GPIO_InitStruct);
+    
 }
 
-void LED_DeInit(void){
+void test_led_de_init(void){
     HAL_GPIO_DeInit(LED_GPIO_PORT, LED_PIN);
 }
 

@@ -2,26 +2,22 @@
 #include <unity.h>
 
 void setUp(void) {
-    LED_Init();
+    test_led_init();
 }
 
 void tearDown(void) {
-    LED_DeInit();
+    test_led_de_init();
 }
 
 int main() {
     HAL_Init();         // initialize the HAL library
     HAL_Delay(2000);    // service delay
+    
     UNITY_BEGIN();
-    RUN_TEST(test_led_builtin_pin_number);
 
-    for (unsigned int i = 0; i < 5; i++)
-    {
-        RUN_TEST(test_led_state_high);
-        HAL_Delay(500);
-        RUN_TEST(test_led_state_low);
-        HAL_Delay(500);
-    }
+    RUN_TEST(test_led_builtin_pin_number);
+    RUN_TEST(test_led_state_high);
+    RUN_TEST(test_led_state_low);
 
     UNITY_END(); // stop unit testing
 
